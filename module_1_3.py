@@ -1,7 +1,7 @@
-имия = "Никита"
-печать("Имя:",(стр(имия)))
-возраст = 23
-печать("Возраст:", (инт(возраст)))
+name = "Никита"
+print("Name:",(str(name)))
+age = 23
+print("Age:", (int(age)))
 new_age = 1
-печать("новый_возраст":, (инт(new_age + возраст)))
-печать("is_student:", (бул("is_student")))
+print("new_age:", (int(new_age + age)))
+print("is_student:", (bool("is_student")))
