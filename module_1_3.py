@@ -1,8 +1,8 @@
-name = 'Никита'
-print(name)
+name = "Никита"
+print("Name:",(str(name)))
 age = 23
-print(age)
+print("Age:", (int(age)))
 age = age + 1
-print(age)
+print("New_age:", (int(age)))
 is_student = bool(True)
-print("is_student:", ((is_student)))
+print("Is_Student:", ((is_student)))
