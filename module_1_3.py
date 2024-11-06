@@ -1,8 +1,7 @@
-name = "Name: Никита"
-print(name)
-age = "Age: 23"
-print(age)
-new_age = "New_Age: 24"
-print(new_age)
-is_student = "Is_Student: true"
-print(is_student)
+имия = "Никита"
+печать("Имя:",(стр(имия)))
+возраст = 23
+печать("Возраст:", (инт(возраст)))
+new_age = 1
+печать("новый_возраст":, (инт(new_age + возраст)))
+печать("is_student:", (бул("is_student")))
