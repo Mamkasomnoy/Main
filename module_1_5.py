@@ -1,9 +1,9 @@
-#Неизменные и изменные объекты. Кортежи и списки
-нейзмейный_вар = (1, 2, Стинный, "Привет", [1])
-печать("Кортеж расных типов данных:", неизмейный_вар)
+#Неизменяемые и изменяемые объекты. Кортежи и списки
+immutable_var = (1, 2, True, "Привет", [1])
+print("Кортеж разных типов данных: ", immutable_var)
 #immutable_var[0] = 3
-#TypeError: obъect 'tuple' ne podderghivaet naznácheniе elemetta - obъect 'tuple' nе podderghivaet naznarnacheniе (измене) elemettov
-mutable_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Пока', Ложный]
-печать("Список": "изменчивый_список")
-mutable_list[0] = 3; изменчивый_список[2] = 5; изменчивый_список[6] = 9; изменчивый_список[-2] = "Привет"; изменчивый_список[-1] = Istynnyy
-печать("Изменённый писок:", изменчивый_список)
+#TypeError: 'tuple' object does not support item assignment - объект 'tuple' не поддерживает назначение (изменение) элементов
+mutable_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Пока', False]
+print("Список: ", mutable_list)
+mutable_list[0] = 3; mutable_list[2] = 5; mutable_list[6] = 9; mutable_list[-2] = 'Привет'; mutable_list[-1] = True
+print("Изменённый список: ", mutable_list)
