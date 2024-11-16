@@ -4,7 +4,7 @@ while len(my_list) > a:
     if int(my_list[a]) > 0:
         print(my_list[a])
         a += 1
-    elif my_list[a] == -5:
+    elif int(my_list[a]) == -5:
         break
     else:
         a += 1
