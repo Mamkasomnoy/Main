@@ -2,9 +2,8 @@ dog = '@'
 com = '.com'
 ru = '.ru'
 net = '.net'
-the_address_is_correct = 0
 sender_one = "university.help@gmail.com"
-def send_email(message, recipient, sender="university.help@gmail.com"):
+def send_email(message, recipient, *, sender="university.help@gmail.com"):
     while 1 > 0:
         str(sender)
         str(recipient)
